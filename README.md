@@ -4,6 +4,13 @@ Final Project | Statistical Inference & Modelling | December 2025
 
 ---
 
+## Data
+
+The datasets are too large for GitHub. Download them from [Galaxy Zoo](https://data.galaxyzoo.org/) and place in `data/`:
+
+- `gz2sample.csv.gz`
+- `zoo2MainSpecz.csv.gz`
+
 ## Project Structure
 
 ```
@@ -49,5 +56,3 @@ SMI_FinalProject/
 | Bayesian MoG | `04_BMoG/` |
 | Figures | `<folder>/output/figures/` |
 | Tables | `<folder>/output/tables/` |
-
-
