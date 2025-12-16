@@ -1,0 +1,4 @@
+# We ignore the datasets, too heavy
+
+gz2sample.csv.gz
+zoo2MainSpecz.csv.gz
