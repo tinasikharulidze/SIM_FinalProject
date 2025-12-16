@@ -1,5 +1,17 @@
-# We ignore the datasets, too heavy
+# Data (too large for git)
+*.csv
+*.csv.gz
 
-gz2sample.csv.gz
-zoo2MainSpecz.csv.gz
-galaxy_zoo_preprocessed.csv
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
