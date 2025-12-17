@@ -20,6 +20,8 @@ Due to capacity constraints, we can not put the data in the `data/` folder. Down
 
 - `gz2sample.csv.gz`
 - `zoo2MainSpecz.csv.gz`
+- `galaxy_metadata.csv` (created by `03_VAE/` folder)
+- `latent_representations.npy` (created by `03_VAE/` folder)
 
 For the VAE pipeline, also grab images from [Zenodo](https://zenodo.org/records/3565489).
 
