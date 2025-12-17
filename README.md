@@ -16,7 +16,7 @@ Each method brings something different to the table. The baseline models identif
 
 ## Data
 
-Download from [Galaxy Zoo](https://data.galaxyzoo.org/) and place in `data/`:
+Due to capacity constraints, we can not put the data in the `data/` folder. Download from [Galaxy Zoo](https://data.galaxyzoo.org/) and place in `data/`:
 
 - `gz2sample.csv.gz`
 - `zoo2MainSpecz.csv.gz`
