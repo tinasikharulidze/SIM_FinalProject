@@ -1,11 +1,11 @@
 # Data (too large for git)
 data/*.csv
 data/*.csv.gz
+data/*.npy
 
 # Python
 __pycache__/
 *.pyc
-*.npy
 
 # Jupyter
 .ipynb_checkpoints/
