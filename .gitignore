@@ -5,6 +5,7 @@ data/*.csv.gz
 # Python
 __pycache__/
 *.pyc
+*.npy
 
 # Jupyter
 .ipynb_checkpoints/
