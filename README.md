@@ -1,8 +1,8 @@
 # Statistical Modelling of Galaxy Morphology
 
-**Tina Sikharulidze - Albert Lamb - Michael D. Gonçalves**
+**Albert Lamb - Michael Duarte Gonçalves - Tina Sikharulidze**
 
-Statistical Inference & Modelling — Final Project, December 2025
+Statistical Modelling & Inference — Final Project, December 2025
 
 ---
 
