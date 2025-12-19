@@ -70,7 +70,7 @@ Extends the baseline with spline-based transformations to capture non-linear fea
 
 Learns 16-dimensional latent representations directly from 128×128 galaxy images. A convolutional encoder-decoder architecture trained with reconstruction + KL loss. No hand-crafted features required.
 
-**Key results:** Clean separation between smooth and disk galaxies in latent space (visualized via t-SNE). Outputs feed directly into Stage 2 clustering.
+**Key results**: Clean separation between smooth and disk galaxies in latent space (visualized via t-SNE). Outputs feed directly into Stage 2 clustering (aka `04_BMoG/` folder).
 
 ---
 
@@ -78,10 +78,9 @@ Learns 16-dimensional latent representations directly from 128×128 galaxy image
 
 `Galaxy_Zoo_Bayesian_GMM.ipynb`
 
-Clusters galaxies in the VAE latent space using Gibbs sampling. Discovers natural morphological groupings without using Galaxy Zoo labels during training—labels are only used afterward to validate cluster meaning.
+Clusters galaxies in the VAE latent space using Gibbs sampling with conjugate priors (Normal-Inverse-Wishart). Discovers natural groupings without using Galaxy Zoo labels during training. Labels are only used afterward to validate cluster meaning.
 
-**Key results:** BIC selects K=4 clusters. Strong correspondence between discovered clusters and human classifications (smooth vs. disk). Enables conditional generation of new galaxy representations.
-
+**Key results**: BIC selects $K=4$ clusters. Validation reveals that these clusters do not correspond to human morphological classifications (ARI $\approx 0.003$, NMI $\approx 0.001$). The VAE latent space appears to encode visual features distinct from the smooth vs. disk distinction used by Galaxy Zoo volunteers.
 ---
 
 ## Quick Reference (TO BE COMPLETED)
