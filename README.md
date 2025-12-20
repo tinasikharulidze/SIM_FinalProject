@@ -56,7 +56,7 @@ Predicts P(smooth) using tabular astronomical features. Compares OLS, Ridge, Las
 
 Extends the baseline with spline-based transformations to capture non-linear feature effects. Uses `SplineTransformer` + `LinearGAM` from `pygam` after feature selection via Lasso/Ridge/Adaptive Lasso.
 
-**Key results:** Best $R^2$ = 0.69 with Ridge (43 features, 5-knot splines). Provides smooth partial dependence plots showing how each feature influences morphology.
+**Key results:** Find $R^2$ = 0.48 vs. $R^2 \approx 0.33$ in `01_Baseline`- GAM substantially outperforms linear baselines, revealing fundamentally non-linear relationships between physical measurements and visual perception. Provides smooth partial dependence plots showing how each feature influences morphology.
 
 ---
 
